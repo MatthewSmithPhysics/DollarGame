@@ -68,8 +68,8 @@ public class PlayPanel extends JPanel implements KeyListener, MouseListener, Act
         g.drawString("P- Play Game", 550, 65);
         g.drawString("C- Clear Board", 550, 80);
         g.drawString("Click To Make Action in Mode", 550, 95);
-        for(int i = 0; i < N; i++) node[i].paint(g);
         for(int i = 0; i < M; i++) edge[i].paint(g);
+        for(int i = 0; i < N; i++) node[i].paint(g);
     }
 
     public void addNode(int x, int y)

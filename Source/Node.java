@@ -18,6 +18,8 @@ public class Node
     public void paint(Graphics g)
     {
         g.setFont(custom);
+        g.setColor(Color.BLACK);
+        g.fillOval(x - r, y - r, 2*r, 2*r);
         g.setColor(Color.WHITE);
         g.drawOval(x - r, y - r, 2*r, 2*r);
         g.setColor(Color.GREEN);
