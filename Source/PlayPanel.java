@@ -58,7 +58,7 @@ public class PlayPanel extends JPanel implements KeyListener, MouseListener, Act
     @Override
     public void paintComponent(Graphics g)
     {
-        g.setColor(Color.BLUE);
+        g.setColor(Color.BLACK);
         g.fillRect(0, 0, 800, 800);
         g.setColor(Color.WHITE);
         g.setFont(new Font("Serif", Font.PLAIN, 15));

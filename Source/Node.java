@@ -18,11 +18,11 @@ public class Node
     public void paint(Graphics g)
     {
         g.setFont(custom);
+        g.setColor(Color.WHITE);
+        g.drawOval(x - r, y - r, 2*r, 2*r);
         g.setColor(Color.GREEN);
-        g.fillOval(x - r, y - r, 2*r, 2*r);
-        g.setColor(Color.RED);
         g.drawString("" + p, (int)(x-0.8*r), (int)(y+0.6*r));
-        g.setColor(Color.YELLOW);
+        g.setColor(Color.CYAN);
         g.drawString("" + i, x + r, y - r);
     }
 }

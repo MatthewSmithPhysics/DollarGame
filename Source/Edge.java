@@ -22,7 +22,7 @@ public class Edge
 
     public void paint(Graphics g)
     {
-        g.setColor(Color.BLACK);
+        g.setColor(Color.WHITE);
         g.drawLine(x1, y1, x2, y2);
     }
 }
